@@ -6,8 +6,16 @@ go get - instala pacotes
 go test - realiza todos os testes da pasta selecionada
 go test ./... - realiza todos os testes independente das pastas
 go test -v - modo verboso
+go test -cover
+go test -coverprofile=resultado.out // vai gerar um arquivo
+go tool cover -func=resultado.out // le o arquivo gerado.
+go tool cover -html=resultado.out // gerar um arquivo html com resultado
+
+
+
 Baixar pacote do github
 go get -u github.com/alshashiguchi/goarea
+
 
 *******************************
 * Concorrência vs Paralelismo *
