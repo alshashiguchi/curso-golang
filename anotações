@@ -5,7 +5,7 @@ go run *.go compita todos os arquivos go
 go get - instala pacotes
 go test - realiza todos os testes da pasta selecionada
 go test ./... - realiza todos os testes independente das pastas
-
+go test -v - modo verboso
 Baixar pacote do github
 go get -u github.com/alshashiguchi/goarea
 
