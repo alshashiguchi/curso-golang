@@ -41,4 +41,4 @@ Concorrência - é a forma de estruturar o seu programa.
 É a composição de processos (tipicamente funções) que executam de forma independente.
 
 docker run --name some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -e MYSQL_DATABASE=dbname -d mysql:8
-  docker run --name some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234567 -e MYSQL_DATABASE=mysql -d mysql
+docker run --name some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234567 -e MYSQL_DATABASE=mysql -d mysql
